@@ -16,8 +16,6 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
     }
 
-
-
     public void loginButtonClicked(View view) {
         Intent data = new Intent();
         EditText usernameView = findViewById(R.id.loginPasswordEditText);
