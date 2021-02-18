@@ -1,14 +1,14 @@
 package dk.easj.anbo.intentswithdataback;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
 public class LoginActivity extends AppCompatActivity {
     public static final String USERNAME = "username";
-    public static final String PASSWORD = "passwor";
+    public static final String PASSWORD = "password";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
